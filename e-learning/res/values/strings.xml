@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">e-learning</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+ <!-- judul soal -->
+    <string name="soal2">Simple Quiz - Soal II</string>
+    <string name="soal3">Simple Quiz - Soal III</string>
+    <string name="soal4">Simple Quiz - Soal IV</string>
+    <string name="soal5">Simple Quiz - Soal V</string>
+    
+    <!-- soal 1 -->
+    <string name="soal_soal1">Antara pernyataan berikut,pilih pernyataan yang tepat mengenai takrifan get logik</string>
+    <string name="opsi_soal1_1">Litar logik adalah gabungan get-get logik</string>
+    <string name="opsi_soal1_2">Get-get logik menggunakan sistem binary untuk membentuk satu sistem</string>
+    <string name="opsi_soal1_3">Sistem yang menggunakan boolen untuk beroperasi</string>
+    <string name="opsi_soal1_4">Susunan suis-suis terkawal digunakan untuk mengira operasi-operasi menggunakan logik boolen</string>
+    
+    
+    <!-- soal 2 -->
+    <string name="soal_soal2">Manakah antara berikut menunjukkan jenis logik tak-dan?</string>
+    <string name="opsi_soal2_1">C = A NAND B</string>
+    <string name="opsi_soal2_2">C = A NOR B</string>
+    <string name="opsi_soal2_3">C = A EX OR B</string>
+    <string name="opsi_soal2_4">C = A EX NOR B</string>
+    
+    <!-- soal 3 -->
+    <string name="soal_soal3">Manakah antara berikut hukum sekutuan</string>
+    <string name="opsi_soal3_1">A(BC) = (AB)C</string>
+    <string name="opsi_soal3_2">(X + Y) = X.Y</string>
+    <string name="opsi_soal3_3">A(B+C) = AB+AC</string>
+    <string name="opsi_soal3_4">ABC = ACB = CBA</string>
+    
+    <!-- soal 4 -->
+    <string name="soal_soal4" formatted="false">Manakah antara berikut hukum tukar tertib</string>
+    <string name="opsi_soal4_1" formatted="false">X(YZ) = (XY)Z = XYZ</string>
+    <string name="opsi_soal4_2" formatted="false">X(y+Z) = XY + XZ</string>
+    <string name="opsi_soal4_3" formatted="false">X + Y = Y + X</string>
+    <string name="opsi_soal4_4" formatted="false">X + XY = X</string>
+    
+    <!-- soal 5 -->
+    <string name="soal_soal5">Apakah yang di maksudkan dengan flip flop</string>
+    <string name="opsi_soal5_1">Keupayaan litar untuk berada dalam satu daripada dua kestabilan</string>
+    <string name="opsi_soal5_2">Menyegerakan isyarat keluaran dengan adanya sistem RESET</string>
+    <string name="opsi_soal5_3">Hasil keluaran  flip flop mestilah dalam keadaan persamaan</string>
+    <string name="opsi_soal5_4">Flip flop tidak boleh menggunakan dua get TAK-ATAU atau dua get TAK-DAN  yang bersambung bersilang</string>
+    
+      <!-- Aras 2 -->
+    
+    <!-- soal 1_2aras -->
+    <string name="soal_soal1_2aras">Nombor pendua menggunakan asas dua. Apakah nombor tersebut</string>
+    <string name="opsi_soal1_2_1">10 dan 15</string>
+    <string name="opsi_soal1_2_2">3 dan 4</string>
+    <string name="opsi_soal1_2_3">1 dan 0</string>
+    <string name="opsi_soal1_2_4">3 dan 10</string>
+    
+  
+    
+    <!-- soal 2_2 -->
+    
+    <string name="soal_soal2_2aras">Antara berikut yang manakah kenyataan yang betul mengenai konsep binary</string>
+    <string name="opsi_soal2_2_1">Low dan high</string>
+    <string name="opsi_soal2_2_2">boleh baca nilai perpuluhan</string>
+    <string name="opsi_soal2_2_3">nombor asas 10</string>
+    <string name="opsi_soal2_2_4">Boleh membaca nombor pecahan</string>
+    
+    <!-- soal 3_2 -->
+    <string name="soal_soal3_2aras">Antara berikut yang manakah kenyataan yang betul mengenai digital</string>
+    <string name="opsi_soal3_2_1">Nilainya berubah secara discrit</string>
+    <string name="opsi_soal3_2_2">Nilai berubah secara terus</string>
+    <string name="opsi_soal3_2_3">Sukar mendapat nilai tertentu</string>
+    <string name="opsi_soal3_2_4">Menggunuakan amplifire</string>
+    
+    <!-- soal 4_2 -->
+    <string name="soal_soal4_2aras">Antara berikut yang manakah kenyataan yang betul mengenai analog</string>
+    <string name="opsi_soal4_2_1">Kelajuan yang pantas</string>
+    <string name="opsi_soal4_2_2">Mudah didapati</string>
+    <string name="opsi_soal4_2_3">Sukar mendapat nilai tertentu</string>
+    <string name="opsi_soal4_2_4">Terdapat IC menjadikan litar lebih mudah</string>
+    
+    <!-- soal 5_2 -->
+    <string name="soal_soal5_2aras">Manakah antara berikut pernyataan yang tepat bagi sistem nombor hexadecimal </string>
+    <string name="opsi_soal5_2_1">0,1,2,3,4,5,6,7,8,9</string>
+    <string name="opsi_soal5_2_2">0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F</string>
+    <string name="opsi_soal5_2_3">0,1,2,3,4,5,6,7</string>
+    <string name="opsi_soal5_2_4">0 dan 1</string>
+    
+    
+    
+    <!-- teks tombol -->
+    
+    
+    
+    <string name="jawab">Jawab</string>
+</resources>
+

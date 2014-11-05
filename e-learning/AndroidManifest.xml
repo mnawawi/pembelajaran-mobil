@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.finalexam"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.finalexam.Menu_Utama"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Aras_1"/>
+        <activity android:name=".Aras_2"/>
+        <activity android:name=".Aras1"/>
+        <activity android:name=".Aras2"/>
+         <activity android:name=".Kuiz"/>
+        <activity android:name=".Pengenalan"/>
+         <activity android:name=".Pengenalan1"/>
+         <activity android:name=".Pengenalan2"/>
+         <activity android:name=".Pengenalan3"/>
+         <activity android:name=".Pengenalan4"/>
+         <activity android:name=".GetLogik"/>
+         <activity android:name=".Jenis_getlogik"/>
+         <activity android:name=".Jenis_getlogik1"/>
+         <activity android:name=".Jenis_getlogik2"/>
+         <activity android:name=".Kombinasi_getlogik"/>
+          <activity android:name=".Kombinasi_getlogik1"/>
+           <activity android:name=".Kombinasi_getlogik2"/>
+           <activity android:name=".Ff"/>
+           <activity android:name=".Ff1"/>
+           <activity android:name=".Ff2"/>
+           <activity android:name=".Ff3"/>
+           <activity android:name=".Ff4"/>
+           <activity android:name=".Ff5"/>
+           <activity android:name=".Ff6"/>
+           <activity android:name=".Ff7"/>
+           <activity android:name=".Ff8"/>
+         <activity android:name="Soal1" />
+         <activity android:name="Soal2"/>
+        <activity android:name="Soal3" />
+        <activity android:name="Soal4" />
+        <activity android:name="Soal5" />
+        <activity android:name="Soal1_2" />
+         <activity android:name="Soal2_2"/>
+        <activity android:name="Soal3_2" />
+        <activity android:name="Soal4_2" />
+        <activity android:name="Soal5_2" />
+        <activity android:name="LitarArusUlangAlik1"/>
+        <activity android:name="LitarArusUlangAlik2"/>
+        <activity android:name="LitarArusUlangAlik3"/>
+        <activity android:name="LitarArusUlangAlik4"/>
+        <activity android:name="LitarArusUlangAlik5"/>
+        <activity android:name="LitarArusUlangAlik6"/>
+        <activity android:name="LitarArusUlangAlik7"/>
+        <activity android:name="LitarArusUlangAlik8"/>
+        <activity android:name="LitarArusUlangAlik9"/>
+        <activity android:name="LitarArusUlangAlik10"/>
+        <activity android:name="LitarArusUlangAlik11"/>
+        <activity android:name="LitarArusUlangAlik12"/>
+        <activity android:name="LitarArusUlangAlik13"/>
+        <activity android:name="LitarArusUlangAlik14"/>
+        <activity android:name="LitarArusUlangAlik15"/>
+        <activity android:name="KuasaLitarArusUlangAlik1"/>
+        <activity android:name="KuasaLitarArusUlangAlik2"/>
+        <activity android:name="KuasaLitarArusUlangAlik3"/>
+        <activity android:name="KuasaLitarArusUlangAlik4"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    style="@style/Heru"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgkuiz"
+    android:gravity="top|left"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Soal4" >
+
+        <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+		
+		    <TextView
+		        android:id="@+id/soal"
+		        android:textColor="#FFFFFF"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/soal_soal4_2aras"
+		        android:textAppearance="@style/Heru.Center" />
+		
+		    <RadioGroup
+		        android:id="@+id/opsi"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:clickable="true" >
+		
+		        <RadioButton
+		            android:id="@+id/opsi1"
+		            android:textColor="#FFFFFF"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:checked="false"
+		            android:text="@string/opsi_soal4_2_1" />
+		
+		        <RadioButton
+		            android:id="@+id/opsi2"
+		            android:textColor="#FFFFFF"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/opsi_soal4_2_2" />
+		
+		        <RadioButton
+		            android:id="@+id/opsi3"
+		            android:textColor="#FFFFFF"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/opsi_soal4_2_3" />
+		        
+		        <RadioButton
+		            android:id="@+id/opsi4"
+		            android:textColor="#FFFFFF"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/opsi_soal4_2_4" />
+		    </RadioGroup>
+		
+		    <ImageButton
+		        android:id="@+id/jawab"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center_horizontal"
+		        android:background="@drawable/jawabsoalan"
+		        android:gravity="center_vertical|center_horizontal"
+		        android:textSize="15sp" />
+
+        </LinearLayout>
+    </ScrollView> 
+</LinearLayout>

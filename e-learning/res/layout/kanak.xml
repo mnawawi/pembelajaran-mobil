@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    
+    
+<AbsoluteLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+    
+<ImageButton
+    android:id="@+id/bAras1"
+    android:layout_width="318dp"
+    android:layout_height="158dp"
+    android:src="@drawable/abc" />
+
+</AbsoluteLayout>
+
+<ImageButton
+    android:id="@+id/bKuiz"
+    android:layout_width="154dp"
+    android:layout_height="154dp"
+    android:layout_alignParentRight="true"
+    android:layout_centerVertical="true"
+    android:src="@drawable/tile" />
+
+<ImageButton
+    android:id="@+id/bAras2"
+    android:layout_width="154dp"
+    android:layout_height="154dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignTop="@+id/bKuiz"
+    android:src="@drawable/tile" />
+
+<ImageButton
+    android:id="@+id/ImageView03"
+    android:layout_width="154dp"
+    android:layout_height="154dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:src="@drawable/tile" />
+
+<ImageButton
+    android:id="@+id/ImageView02"
+    android:layout_width="154dp"
+    android:layout_height="154dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:src="@drawable/tile" />
+
+</RelativeLayout>
